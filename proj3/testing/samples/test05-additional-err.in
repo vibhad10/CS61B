@@ -1,0 +1,9 @@
+# Test the find command when called on an incorrect commit.
+I setup2.inc
+> rm g.txt
+<<<
+> commit "Removed g.txt"
+<<<
+> find "Added other files"
+Found no commit with that message.
+<<<
