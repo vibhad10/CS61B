@@ -1,0 +1,12 @@
+Main function:
+1. Need a place to store old copies of files in the (.gitlet) directory
+2. Files not in the .gitlet directory are the files you are currently working on or will add to the repository (in the working directory)
+3. Hint: Get from hash table
+4. Failure Cases
+
+Checkpoint Functions:
+1. Init
+2. Add
+3. Commit
+4. Log
+5. Checkout
